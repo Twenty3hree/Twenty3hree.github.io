@@ -13,6 +13,8 @@
       </div>
     {% elsif site.vkontakte_api.enable and site.vkontakte_api.comments %}
       <div id="vk_comments"></div>
+    {% elsif site.valine_comment.enable %}
+      <div id="vcomments"></div>
     {% elsif site.disqus.enable %}
       <div id="disqus_thread">
         <noscript>
